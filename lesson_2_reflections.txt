@@ -7,11 +7,16 @@ What value do you think it offers?
 
 Staging area is an area which is is a temporary area between the working directory and the repository. All the changes or files that need to be commited are moved to the staging first before committing to the repository. This is useful because it helps us review the files and changes and make any last minute changes before committing to the repository.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+By using git diff command we can compare with the working directory and make sure all the changes for a logical change are added to staging.
+The compare the staging with the repository using git diff --staged and then finally commit the changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When we want to add an experimental feature to the existing code and we are not sure if it will be impletemented and when we want to add a new language support to the existing code.
+
+Branched help to organize the code in such cases since the changes in the branch would not the working code in the master.
 
 How do the diagrams help you visualize the branch structure?
 
