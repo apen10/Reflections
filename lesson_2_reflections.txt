@@ -20,8 +20,12 @@ Branched help to organize the code in such cases since the changes in the branch
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+Diagrams help visualize the commits made in each brach and helps us understand the changes made in each branch. Also avoids unreachable commits.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When the change or enhancement in the child branch is completed and tested, it needs to be merged to the master branch to release the code to production. It is represented in the diagram as it is easier to understand and visualize the branches.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
